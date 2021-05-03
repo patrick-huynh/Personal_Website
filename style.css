@@ -208,6 +208,11 @@ svg {
   max-width: 100%;
 }
 
+img:hover {
+  opacity: 80%;
+  transition: 0.5s;
+}
+
 /*--------------------------------------------------------------
 5.0 LAYOUT
 --------------------------------------------------------------*/
@@ -270,6 +275,10 @@ svg {
 .ui-component-button-small {
   font-size: var(--ui-typography-s);
   padding: .5rem .75rem .5625rem;
+}
+
+.ui-component-button:hover {
+    opacity: 50%;
 }
 
 /*--------------------------------------------------------------
