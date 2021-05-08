@@ -1,124 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head style="background-image: url('background.jpg');">
-    <!-- META -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="uisual" content="Made with Uisual (uisual.com)">
-    <meta name="author" content="#">
-    <meta name="description" content="#">
-    <meta name="referrer" content="unsafe-url">
-    <meta name="robots" content="index, follow">
-    <!-- SPEED -->
-    <link rel="preconnect" href="https://res.cloudinary.com">
-    <link rel="dns-prefetch" href="https://res.cloudinary.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <!-- LINK -->
-    <link rel="me" href="#">
-    <link rel="canonical" href="#">
-    <link rel="icon" type="image/png" href="ph.png" sizes="48x48">
-    <!-- PERFORMANCE -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-    <link rel="preload" as="style" href="style.css">
-    <link rel="stylesheet" href="style.css">
-    <!-- TITLE -->
-    <title>Patrick Huynh</title>
-  </head>
-  <body>
-    <header role="banner" class="ui-section-header">
+
+<head style="background-image: url('background.jpg');">
+  <script src="main.js"></script>
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="uisual" content="Made with Uisual (uisual.com)">
+  <meta name="author" content="#">
+  <meta name="description" content="#">
+  <meta name="referrer" content="unsafe-url">
+  <meta name="robots" content="index, follow">
+  <!-- SPEED -->
+  <link rel="preconnect" href="https://res.cloudinary.com">
+  <link rel="dns-prefetch" href="https://res.cloudinary.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <!-- LINK -->
+  <link rel="me" href="#">
+  <link rel="canonical" href="#">
+  <link rel="icon" type="image/png" href="ph.png" sizes="48x48">
+  <!-- PERFORMANCE -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+  <link rel="preload" as="style" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- TITLE -->
+  <title>Patrick Huynh</title>
+</head>
+
+<body>
+  <header role="banner" class="ui-section-header">
+    <div class="ui-layout-container">
+      <div class="ui-section-header__layout ui-layout-flex">
+        <!-- LOGO -->
+        <a text-align=left href="index.html" role="link" aria-label="#">
+          <img class=logo width=40px src=ph.png>
+        </a>
+        <!-- MENU -->
+        <a href="https://www.linkedin.com/in/patrick-huynh-0706321b1/" target="_blank" role="link" aria-label="#"
+          class="ui-component-button ui-component-button-small ui-component-button-primary">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+  <main role="main">
+    <section class="ui-section-hero">
       <div class="ui-layout-container">
-        <div class="ui-section-header__layout ui-layout-flex">
-          <!-- LOGO -->
-          <a text-align=left href="index.html" role="link" aria-label="#">
-            <img class=logo width=40px src=ph.png>
-          </a>    
-          <!-- MENU -->
-          <a href="https://www.linkedin.com/in/patrick-huynh-0706321b1/" target="_blank" role="link" aria-label="#" class="ui-component-button ui-component-button-small ui-component-button-primary">LinkedIn</a>
+        <!-- COPYWRITING -->
+        <div class="ui-layout-column-6 ui-layout-column-center">
+          <div id="typing-wrapper">
+            <div id="typing">
+              <h1>Patrick Huynh</h1>
+            </div>
+          </div>
+          <p class="ui-text-intro">Studying Mathematics.<br>University of Waterloo</p>
+          <!-- CTA -->
+          <div class="ui-component-cta ui-layout-flex">
+            <a href="patrick.huynh2021.pdf" target="_blank" role="link" aria-label="#"
+              class="ui-component-button ui-component-button-normal ui-component-button-primary">Download my
+              resume</a>
+          </div>
+    </section>
+    <section class="ui-section-feature">
+      <h2 style="text-align:center;">Projects<br></h2>
+      <br>
+      <div class="ui-layout-container">
+
+        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+          <!-- IMAGE -->
+          <img src="dr_goose.png" height=103% loading="lazy" alt="#" class="ui-image-half-left">
+          <!-- FEATURE -->
+          <div>
+            <h2>Dr. Goose</h2>
+            <p class="ui-text-intro">An all-in-one student utility Google Chrome extension built in JS. Built to
+              maximize productivity and minimizing the chance of burn out.</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">Optimized for students</li>
+              <li class="ui-component-list--item ui-component-list--item-check">For online-learning</li>
+              <li class="ui-component-list--item ui-component-list--item-check">Built for HTN 2020++</li>
+              <li class="ui-component-list--item ui-component-list--item-check">JavaScript/CSS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+          <!-- FEATURE -->
+          <div>
+            <h2>Shopping Bot</h2>
+            <p class="ui-text-intro"> A light-weight bot that notifies users when new or out of stock online products
+              are restocked on a variety of online store.</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">Alerts through SMS texts</li>
+              <li class="ui-component-list--item ui-component-list--item-check"></li>
+              <li class="ui-component-list--item ui-component-list--item-check">Python</li>
+              <li class="ui-component-list--item ui-component-list--item-check"></li>
+            </ul>
+          </div>
+          <!-- IMAGE -->
+          <img src="shopping_bot_main.png" loading="lazy" alt="#" class="ui-image-half-right">
+        </div>
+        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+          <!-- IMAGE -->
+          <img src="nhss_grad.png" loading="lazy" alt="#" class="ui-image-half-left">
+          <!-- FEATURE -->
+          <div>
+            <h2>Data Manager</h2>
+            <p class="ui-text-intro">Collaborated with a team to advertise, sell, and distribute school merchandise to
+              high school graduates.</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">Northview '20 Graduation Apparel</li>
+              <li class="ui-component-list--item ui-component-list--item-check">Student-run initiative</li>
+              <li class="ui-component-list--item ui-component-list--item-check">Over 80+ orders</li>
+              <li class="ui-component-list--item ui-component-list--item-check">Generated over $4000 in revenue</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+          <!-- FEATURE -->
+          <div>
+            <h2>Sudoku Solver</h2>
+            <p class="ui-text-intro">A simple sudoku solver that uses backtracking algorithm to generate a possible
+              solution.</p>
+            <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+              <li class="ui-component-list--item ui-component-list--item-check">C/C++</li>
+              <li class="ui-component-list--item ui-component-list--item-check"></li>
+              <li class="ui-component-list--item ui-component-list--item-check">Built using the backtracking algorithm
+              </li>
+              <li class="ui-component-list--item ui-component-list--item-check"></li>
+            </ul>
+          </div>
+          <!-- IMAGE -->
+          <img src="sudoku_solver.png" loading="lazy" alt="#" class="ui-image-half-right">
         </div>
       </div>
-    </header>
-    <main role="main">
-      <section class="ui-section-hero">
-        <div class="ui-layout-container">
-          <!-- COPYWRITING -->
-          <div class="ui-layout-column-6 ui-layout-column-center">
-            <h1>Patrick Huynh</h1>
-            <p class="ui-text-intro">Studying Mathematics.<br>University of Waterloo</p>
-            <!-- CTA -->
-            <div class="ui-component-cta ui-layout-flex">
-              <a href="patrick.huynh2021.pdf" target="_blank" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Download my resume</a>
-            </div>
-      </section>
-      <section class="ui-section-feature">
-        <h2 style="text-align:center;">Projects<br></h2>
-        <br>
-        <div class="ui-layout-container">
-         
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- IMAGE -->
-            <img src="dr_goose.png" height=103% loading="lazy" alt="#" class="ui-image-half-left">
-            <!-- FEATURE -->
-            <div>
-              <h2>Dr. Goose</h2>
-              <p class="ui-text-intro">An all-in-one student utility Google Chrome extension built in JS. Built to maximize productivity and minimizing the chance of burn out.</p>
-              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Optimized for students</li>
-                <li class="ui-component-list--item ui-component-list--item-check">For online-learning</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Built for HTN 2020++</li>
-                <li class="ui-component-list--item ui-component-list--item-check">JavaScript/CSS</li>
-              </ul>
-            </div>
-          </div>
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- FEATURE -->
-            <div>
-              <h2>Shopping Bot</h2>
-              <p class="ui-text-intro"> A light-weight bot that notifies users when new or out of stock online products are restocked on a variety of online store.</p>
-              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Alerts through SMS texts</li>
-                <li class="ui-component-list--item ui-component-list--item-check"></li>
-                <li class="ui-component-list--item ui-component-list--item-check">Python</li>
-                <li class="ui-component-list--item ui-component-list--item-check"></li>
-              </ul>
-            </div>
-            <!-- IMAGE -->
-            <img src="shopping_bot_main.png" loading="lazy" alt="#" class="ui-image-half-right">
-          </div>
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- IMAGE -->
-            <img src="nhss_grad.png" loading="lazy" alt="#" class="ui-image-half-left">
-            <!-- FEATURE -->
-            <div>
-              <h2>Data Manager</h2>
-              <p class="ui-text-intro">Collaborated with a team to advertise, sell, and distribute school merchandise to high school graduates.</p>
-              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Northview '20 Graduation Apparel</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Student-run initiative</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Over 80+ orders</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Generated over $4000 in revenue</li>        
-              </ul>
-            </div>
-          </div>
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- FEATURE -->
-            <div>
-              <h2>Sudoku Solver</h2>
-              <p class="ui-text-intro">A simple sudoku solver that uses backtracking algorithm to generate a possible solution.</p>
-              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">C/C++</li>
-                <li class="ui-component-list--item ui-component-list--item-check"></li>
-                <li class="ui-component-list--item ui-component-list--item-check">Built using the backtracking algorithm</li>
-                <li class="ui-component-list--item ui-component-list--item-check"></li>
-              </ul>
-            </div>
-            <!-- IMAGE -->
-            <img src="sudoku_solver.png" loading="lazy" alt="#" class="ui-image-half-right">
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+    </section>
+  </main>
+</body>
+<hr width="75%">
+<footer role="contentinfo" class="ui-section-footer">
+  <div class="ui-layout-container">
+    <div class="ui-section-footer__layout ui-layout-flex">
+      <!-- COPYRIGHT -->
+      <p class="ui-section-footer--copyright ui-text-note"><small>© 2021 Patrick Huynh</small></p>
+      <!-- MENU -->
+      <nav role="navigation" class="ui-section-footer--nav ui-section-footer--menu ui-layout-flex">
+        <a href="mailto:patrickhuynh2002@outlook.com?" role="link" aria-label="#" class="ui-text-note"><small>patrickhuynh2002@outlook.com</small></a>
+        <a href="mailto:p23huynh@uwaterloo.ca?" role="link" aria-label="#" class="ui-text-note"><small>p23huynh@uwaterloo.ca</small></a>
+      </nav>
+      <!-- SOCIAL -->
+      <nav role="navigation" class="ui-section-footer--nav ui-section-footer--social ui-layout-flex">
+        <p class="ui-section-footer--copyright ui-text-note">
+          <small>
+            All trademarks and logos used are the<br>property of their respective owners.
+          </small>
+        </p>
+      </nav>
+    </div>
+  </div>
+</footer>
+
 </html>
