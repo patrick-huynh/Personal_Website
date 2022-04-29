@@ -1,9 +1,6 @@
-This is my personal website.
+# Personal Website
 
-Template
+The website is live at the following link:\
+[https://phuynh.netlify.app](https://phuynh.netlify.app)
 
-# Align: Free Landing Page Template from Uisual
-
-![Align Preview](https://res.cloudinary.com/uisual/image/upload/assets/screenshots/align.png)
-
-Align is a free landing page template from Uisual. Visit [Uisual](https://uisual.com) for more free templates.
+This project was created using vanilla HTML/CSS/JS.
